@@ -1,0 +1,11 @@
+<div class="conversation-item">
+  <p><%= @question %></p>
+  <p class="author">-You</p>
+</div>
+
+<div class="conversation-item">
+  <p id="coach-answer"><%= @coach_answer %></p>
+  <p class="author">-Your coach</p>
+</div>
+
+<%= link_to "Ask a new question to your coach", ask_path %>

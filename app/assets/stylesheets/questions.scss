@@ -1,0 +1,33 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$blue: #314e52;
+
+$orange: #f2a154;
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: $blue;
+  margin-bottom: 40px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.conversation-item {
+  border-left: solid;
+  border-color: $orange;
+  border-width: 10px;
+  margin-bottom: 40px;
+  padding-left: 15px;
+}
+
+.author {
+  font-style: italic;
+}
+
+#coach-answer {
+  font-weight: bold;
+}
+
